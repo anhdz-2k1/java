@@ -17,6 +17,7 @@ public class TestShape {
         System.out.println(s1.getPermiter());
         System.out.println(s1.getColor());
         System.out.println(s1.isFilled());
+       
         
         
         Circle c1 = (Circle)s1;
@@ -44,7 +45,7 @@ public class TestShape {
         System.out.println(s4);
         System.out.println(s4.getArea());
         System.out.println(s4.getColor());
-        System.out.println(s4.getSide());
+        
     
     
 }

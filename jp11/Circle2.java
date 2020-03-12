@@ -10,7 +10,7 @@ package jp11;
  * @author Anh
  */
 public class Circle2 implements Geometricobject{
-    private double radius;
+    double radius;
 
     public Circle2(double radius) {
         this.radius = radius;
@@ -29,7 +29,5 @@ public class Circle2 implements Geometricobject{
         return Math.PI*radius*radius;
     }
 
-    void resize(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 }

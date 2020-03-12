@@ -20,14 +20,10 @@ public class ResizableCircle extends Circle2 implements Resizable {
         return "ResizableCircle{" + super.toString() +'}';
     }
     
-    /**
-     *
-     * @param percent
-     * @return
-     */
+    
     @Override
-    public double resize(int percent){
-        return super.getArea()*percent;
+    public void resize(int percent){
+        super.radius *= percent/100;
     }
     
 }

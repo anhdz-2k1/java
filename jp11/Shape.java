@@ -41,11 +41,5 @@ abstract public class Shape {
         return "Shape[color=" + color + ".filled=" + filled + "]";
     }
 
-    boolean getRadius() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    boolean getSide() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 }

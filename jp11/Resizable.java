@@ -10,6 +10,6 @@ package jp11;
  * @author Anh
  */
 public interface Resizable {
-   public double resize(int percent);
+   public void resize(int percent);
         
 }
